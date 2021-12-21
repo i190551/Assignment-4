@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.votingProcedure">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="243.0" fitWidth="349.0" layoutX="328.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/68917005.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="castvote" layoutX="78.0" layoutY="166.0" mnemonicParsing="false" onAction="#castvote" prefHeight="31.0" prefWidth="173.0" style="-fx-background-color: white;" text="Cast Your Vote" />
+            <Button fx:id="help" layoutX="77.0" layoutY="312.0" mnemonicParsing="false" onAction="#help" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: white;" text="How To Vote" />
+            <Button fx:id="logoutvoter" layoutX="108.0" layoutY="391.0" mnemonicParsing="false" onAction="#logoutvoter" style="-fx-background-color: red;" text="Logout" />
+            <Button fx:id="viewresult" layoutX="77.0" layoutY="241.0" mnemonicParsing="false" onAction="#viewresult" prefHeight="31.0" prefWidth="174.0" style="-fx-background-color: white;" text="View Results" />
+            <Text layoutX="142.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voting Procedure">
+               <font>
+                  <Font name="System Bold Italic" size="46.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
